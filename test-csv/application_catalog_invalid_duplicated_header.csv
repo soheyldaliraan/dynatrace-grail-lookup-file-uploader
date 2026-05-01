@@ -1,0 +1,6 @@
+app_id,app_name,app_name,owner_team,sensitivity,data_classification,tier,on_call_rotation
+FA-01,Fund Accounting,Java + Oracle,Platform-SRE-B,business-critical,restricted,T1,pager-fa
+PM-02,Portfolio Manager,.NET + SQL Server,Wealth-Eng,business-critical,restricted,T1,pager-pm
+WP-04,Wealth Portal API,Node.js + Postgres,Platform-Web,customer-facing,confidential,T2,pager-wp
+RISK-07,Risk Analytics,Python + Redis,Risk-Eng,regulated,restricted,T1,pager-risk
+NOT-11,Notifications,Go + Kafka,Platform-Msg,standard,internal,T3,pager-not

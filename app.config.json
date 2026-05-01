@@ -1,0 +1,15 @@
+{
+  "$schema": "./.dt-app/app.config.schema.json",
+  "environmentUrl": "https://YOUR_TENANT.apps.dynatrace.com/",
+  "app": {
+    "name": "Lookup CSV Uploader",
+    "version": "0.0.0",
+    "description": "A starting project with routing, fetching data, and charting",
+    "id": "my.lookup.csv.uploader",
+    "scopes": [
+      { "name": "storage:logs:read", "comment": "default template" },
+      { "name": "storage:buckets:read", "comment": "default template" },
+      { "name": "storage:files:write", "comment": "required to upload lookup CSV files to the Grail Resource Store" }
+    ]
+  }
+}
